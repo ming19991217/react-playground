@@ -1,0 +1,39 @@
+/*
+    Light green: #7ed56f
+    Medium green: #55c57a
+    Dark green: #28b485
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    /* 會先顯示背景圖片，再顯示漸變 */
+    background: linear-gradient(to right bottom, #7ed56fbe, #28b485b8),
+        url(../img/hero.jpg);
+
+    background-position: top;
+
+    /* 背景會等比例放大，直到完全覆蓋容器 */
+    background-size: cover;
+
+    /* 僅顯示範圍內的元素 */
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+
+
+}
