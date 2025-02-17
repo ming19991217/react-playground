@@ -1,5 +1,5 @@
 import Natours from "./page/Natours"
-import "./page/style.css"
+import './styles/main.css'
 
 function App() {
 
