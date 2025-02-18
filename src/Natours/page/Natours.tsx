@@ -26,6 +26,26 @@ export default function Natours() {
                 </div>
             </header>
 
+            <main>
+                <section className="section-about">
+                    <div className="u-center-text u-margin-bottom-8">
+                        <h2 className="heading-secondary">
+                            Exciting tours for adventurous people
+                        </h2>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-1-of-2">
+                            Text content
+                        </div>
+                        <div className="col-1-of-2">
+                            Image component
+                        </div>
+                    </div>
+
+                </section>
+            </main>
+
             {/* 
             <section className='grid-test'>
                 <div className="row">
