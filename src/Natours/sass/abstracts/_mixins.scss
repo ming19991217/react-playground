@@ -1,0 +1,9 @@
+@mixin clearfix {
+
+    // 當父元素的高度不是固定的時候，這個 mixin 可以幫助我們清除浮動
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
