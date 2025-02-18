@@ -28,7 +28,7 @@ export default function Natours() {
 
             <main>
                 <section className="section-about">
-                    <div className="u-center-text u-margin-bottom-8">
+                    <div className="u-center-text u-margin-bottom-big">
                         <h2 className="heading-secondary">
                             Exciting tours for adventurous people
                         </h2>
@@ -36,7 +36,25 @@ export default function Natours() {
 
                     <div className="row">
                         <div className="col-1-of-2">
-                            Text content
+                            <h3 className="heading-tertiary u-margin-bottom-small">
+                                You're going to fall in love with nature
+                            </h3>
+                            <p className="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ipsum dolor ducimus quam nisi exercitation
+                            </p>
+
+                            <h3 className="heading-tertiary u-margin-bottom-small">
+                                Live adventures like you never have before
+                            </h3>
+                            <p className="paragraph">
+                                Lorem ipsum dolor sit amet sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitation
+                            </p>
+
+                            <a href="#" className="btn-text">
+                                {/* &rarr; 代表右箭頭 */}
+                                Learn more &rarr;
+                            </a>
+
                         </div>
                         <div className="col-1-of-2">
                             Image component
