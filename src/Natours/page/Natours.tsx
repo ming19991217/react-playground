@@ -1,8 +1,5 @@
 
 
-import logo from '../img/logo-white.png';
-
-
 export default function Natours() {
     return (
         <>
@@ -10,7 +7,7 @@ export default function Natours() {
 
                 {/* Logo */}
                 <div className="header__logo-box">
-                    <img src={logo} alt="Logo" className='header__logo' />
+                    <img src="/img/logo-white.png" alt="Logo" className='header__logo' />
                 </div>
 
                 {/* 標題 */}
@@ -57,7 +54,11 @@ export default function Natours() {
 
                         </div>
                         <div className="col-1-of-2">
-                            Image component
+                            <div className="composition">
+                                <img src='/img/nat-1-large.jpg' alt="Photo 1" className="composition__photo composition__photo--p1" />
+                                <img src='/img/nat-2-large.jpg' alt="Photo 2" className="composition__photo composition__photo--p2" />
+                                <img src='/img/nat-3-large.jpg' alt="Photo 3" className="composition__photo composition__photo--p3" />
+                            </div>
                         </div>
                     </div>
 
