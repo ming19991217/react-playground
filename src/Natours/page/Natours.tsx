@@ -227,6 +227,31 @@ export default function Natours() {
                     </div>
 
                 </section>
+
+
+                <section className="section-stories">
+                    <div className="u-center-text u-margin-bottom-big">
+                        <h2 className="heading-secondary">
+                            We make people genuinely happy
+                        </h2>
+                    </div>
+
+                    <div className="row">
+                        <div className="story">
+                            <figure className="story__shape">
+                                <img src='/img/nat-8.jpg' alt='Person on a tour' className='story__img' />
+                            </figure>
+                            <div className="story__text">
+                                <h3 className="heading-tertiary u-margin-bottom-small">
+                                    I had the best week ever with my family
+                                </h3>
+                                <p >
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ipsum dolor ducimus quam nisi exercitation ipsum sapiente aspernatur libero repellat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
 
             {/* 
