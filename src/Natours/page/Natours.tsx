@@ -307,6 +307,30 @@ export default function Natours() {
                                         <input type="email" className="form__input" placeholder='Email address' id='email' required />
                                         <label htmlFor="email" className="form__label">Email address</label>
                                     </div>
+
+                                    <div className="form__group u-margin-bottom-medium">
+                                        <div className="form__radio-group">
+                                            <input type="radio" className="form__radio-input" id="small" name='size' />
+                                            <label htmlFor="small" className="form__radio-label">
+                                                <span className="form__radio-button"></span>
+                                                Small tour group
+                                            </label>
+                                        </div>
+                                        <div className="form__radio-group ">
+                                            <input type="radio" className="form__radio-input" id="large" name='size' />
+                                            <label htmlFor="large" className="form__radio-label">
+                                                <span className="form__radio-button"></span>
+                                                Large tour group
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div className="form__group">
+                                        <button className="btn btn--green" type='submit'>
+                                            Next step &rarr;
+                                        </button>
+                                    </div>
+
                                 </form>
                             </div>
                         </div>
@@ -317,57 +341,57 @@ export default function Natours() {
             {/* 
             <section className='grid-test'>
                 <div className="row">
-                    <div className="col-1-of-2">
-                        Col 1 of 2
-                    </div>
-                    <div className="col-1-of-2">
-                        Col 1 of 2
-                    </div>
-                </div>
+                                            <div className="col-1-of-2">
+                                                Col 1 of 2
+                                            </div>
+                                            <div className="col-1-of-2">
+                                                Col 1 of 2
+                                            </div>
+                                        </div>
 
-                <div className="row">
-                    <div className="col-1-of-3">
-                        Col 1 of 3
-                    </div>
-                    <div className="col-1-of-3">
-                        Col 1 of 3
-                    </div>
-                    <div className="col-1-of-3">
-                        Col 1 of 3
-                    </div>
-                </div>
+                                        <div className="row">
+                                            <div className="col-1-of-3">
+                                                Col 1 of 3
+                                            </div>
+                                            <div className="col-1-of-3">
+                                                Col 1 of 3
+                                            </div>
+                                            <div className="col-1-of-3">
+                                                Col 1 of 3
+                                            </div>
+                                        </div>
 
-                <div className="row">
-                    <div className="col-1-of-3">
-                        Col 1 of 3
-                    </div>
-                    <div className="col-2-of-3">
-                        Col 2 of 3
-                    </div>
-                </div>
+                                        <div className="row">
+                                            <div className="col-1-of-3">
+                                                Col 1 of 3
+                                            </div>
+                                            <div className="col-2-of-3">
+                                                Col 2 of 3
+                                            </div>
+                                        </div>
 
-                <div className="row">
-                    <div className="col-1-of-4">
-                        Col 1 of 4
-                    </div>
-                    <div className="col-1-of-4">
-                        Col 1 of 4
-                    </div>
-                    <div className="col-2-of-4">
-                        Col 2 of 4
-                    </div>
-                </div>
+                                        <div className="row">
+                                            <div className="col-1-of-4">
+                                                Col 1 of 4
+                                            </div>
+                                            <div className="col-1-of-4">
+                                                Col 1 of 4
+                                            </div>
+                                            <div className="col-2-of-4">
+                                                Col 2 of 4
+                                            </div>
+                                        </div>
 
-                <div className="row">
-                    <div className="col-1-of-4">
-                        Col 1 of 4
-                    </div>
-                    <div className="col-3-of-4">
-                        Col 3 of 4
-                    </div>
-                </div>
+                                        <div className="row">
+                                            <div className="col-1-of-4">
+                                                Col 1 of 4
+                                            </div>
+                                            <div className="col-3-of-4">
+                                                Col 3 of 4
+                                            </div>
+                                        </div>
 
-            </section>
+                                    </section>
             */}
         </>
     );
