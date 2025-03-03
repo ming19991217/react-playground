@@ -9,10 +9,45 @@
 
     &__content {
         @include absCenter;
+
         width: 75%;
-        height: 50rem;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
         border-radius: 3px;
+        display: table;
+        overflow: hidden;
+
+    }
+
+    &__left {
+        width: 33.33333%;
+        display: table-cell;
+    }
+
+    &_right {
+        width: 66.66667%;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 3rem 5rem;
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+        background-size: cover;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+
+        column-count: 2;
+        column-gap: 4rem;
+        column-rule: 1px solid $color-grey-light-2;
+
+        -moz-hyphens: 2;
+        -ms-hyphens: 2;
+        -webkit-hyphens: 2;
+        hyphens: auto;
     }
 }

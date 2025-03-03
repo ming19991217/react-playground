@@ -391,8 +391,12 @@ export default function Natours() {
                         <img src="/img/nat-9.jpg" alt="Tour photo" className="popup__img" />
                     </div>
                     <div className="popup_right">
-                        <h2 className="heading-secondary">Start booking now</h2>
-                        <h3 className="heading-tertiary">Important &ndash; Please read these terms before booking</h3>
+                        <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                        <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                        <p className="popup__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu nunc, accumsan non facilisis non, porttitor id dolor. Suspendisse mattis nisi quis ex varius, a ultrices ante tincidunt. Integer nec sapien ligula. Suspendisse eu risus tincidunt, faucibus arcu quis, varius ipsum. Nulla gravida quis lacus id dictum. Ut et ex viverra, facilisis metus a, laoreet sapien. Aenean porttitor lectus quis consectetur tincidunt. Etiam vitae ligula neque. In sodales, nisi in bibendum eleifend, leo libero feugiat lorem, in mollis mi massa a leo. Sed lobortis, nulla in vehicula tempor, massa nunc elementum mi, eget feugiat est nibh non neque. Aliquam ac nulla posuere quam consequat hendrerit id ut eros. Nam venenatis rutrum neque, sit amet lobortis odio tristique a. Nulla facilisi.
+                        </p>
+                        <a href="" className="btn btn--green">Book now</a>
                     </div>
                 </div>
             </div>
