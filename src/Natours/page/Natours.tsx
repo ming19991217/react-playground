@@ -384,6 +384,19 @@ export default function Natours() {
                 </div>
             </footer>
 
+            <div className="popup">
+                <div className="popup__content">
+                    <div className="popup__left">
+                        <img src="/img/nat-8.jpg" alt="Tour photo" className="popup__img" />
+                        <img src="/img/nat-9.jpg" alt="Tour photo" className="popup__img" />
+                    </div>
+                    <div className="popup_right">
+                        <h2 className="heading-secondary">Start booking now</h2>
+                        <h3 className="heading-tertiary">Important &ndash; Please read these terms before booking</h3>
+                    </div>
+                </div>
+            </div>
+
             {/* 
             <section className='grid-test'>
                 <div className="row">
