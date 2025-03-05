@@ -30,6 +30,8 @@ $breakpoint arguement chices:
 - tab-portrait
 - tab-landscape
 - big-desktop
+
+
 */
 
 // em 最適合用在Media Query 
@@ -58,7 +60,7 @@ $breakpoint arguement chices:
     }
 
     @if $breakpoint ==big-desktop {
-        @media (max-width:112.5em) {
+        @media (min-width:112.5em) {
             // 1800px
             @content;
         }
