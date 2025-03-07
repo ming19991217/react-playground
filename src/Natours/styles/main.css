@@ -1123,7 +1123,7 @@ body {
 .header {
   height: 95vh;
   /* 會先顯示背景圖片，再顯示漸變 */
-  background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero-small.jpg);
   background-position: top;
   /* 背景會等比例放大，直到完全覆蓋容器 */
   background-size: cover;
@@ -1132,6 +1132,11 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   /* 使子元素以這個元素為參考點 */
   position: relative;
+}
+@media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+  .header {
+    background: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url(../img/hero.jpg);
+  }
 }
 @media (max-width: 56.25em) {
   .header {
