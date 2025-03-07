@@ -79,9 +79,28 @@ export default function Natours() {
                         </div>
                         <div className="col-1-of-2">
                             <div className="composition">
-                                <img src='/img/nat-1-large.jpg' alt="Photo 1" className="composition__photo composition__photo--p1" />
+
+                                <img srcSet="/img/nat-1.jpg 300w, /img/nat-1-large.jpg 1000w"
+                                    sizes="(max-width: 900px) 20vw ,(max-width:600px)30vw, 300px"
+                                    alt='Photo 1'
+                                    className='composition__photo composition__photo--p1'
+                                    src='/img/nat-1-large.jpg' />
+
+                                <img srcSet="/img/nat-2.jpg 300w, /img/nat-2-large.jpg 1000w"
+                                    sizes="(max-width: 900px) 20vw ,(max-width:600px)30vw, 300px"
+                                    alt='Photo 2'
+                                    className='composition__photo composition__photo--p2'
+                                    src='/img/nat-2-large.jpg' />
+
+                                <img srcSet="/img/nat-3.jpg 300w, /img/nat-3-large.jpg 1000w"
+                                    sizes="(max-width: 900px) 20vw ,(max-width:600px)30vw, 300px"
+                                    alt='Photo 3'
+                                    className='composition__photo composition__photo--p3'
+                                    src='/img/nat-3-large.jpg' />
+
+                                {/* <img src='/img/nat-1-large.jpg' alt="Photo 1" className="composition__photo composition__photo--p1" />
                                 <img src='/img/nat-2-large.jpg' alt="Photo 2" className="composition__photo composition__photo--p2" />
-                                <img src='/img/nat-3-large.jpg' alt="Photo 3" className="composition__photo composition__photo--p3" />
+                                <img src='/img/nat-3-large.jpg' alt="Photo 3" className="composition__photo composition__photo--p3" /> */}
                             </div>
                         </div>
                     </div>
@@ -365,7 +384,7 @@ export default function Natours() {
                     <picture className='footer__logo'>
                         <source srcSet='/img/logo-green-small-1x.png 1x , /img/logo-green-small-2x.png 2x'
                             media='(max-width: 37.5em)' />
-                        <img srcSet="/img/logo-green-1x.png 1x , /img/logo-green-2x.png 2x" alt="Full logo" />
+                        <img srcSet="/img/logo-green-1x.png 1x , /img/logo-green-2x.png 2x" alt="Full logo" src='/img/logo-green-2x.png' />
                     </picture>
                 </div>
                 <div className="row">
