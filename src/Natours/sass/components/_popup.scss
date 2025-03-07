@@ -11,6 +11,8 @@
     visibility: hidden;
     transition: all .3s;
 
+
+    // 如果瀏覧器支援，則執行
     @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
