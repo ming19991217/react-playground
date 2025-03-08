@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "compile:sass": "sass src/Natours/sass:src/Natours/styles -w"
+    "compile:sass": "sass src/Trillo/sass:src/Trillo/styles -w"
   },
   "dependencies": {
     "react": "^19.0.0",

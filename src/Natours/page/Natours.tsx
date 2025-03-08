@@ -1,7 +1,7 @@
 import '../css/icon-font.css'
 
 
-export default function Natours() {
+export default function NatoursPage() {
     return (
         <>
             <div className="navigation">
