@@ -16,11 +16,15 @@ function Trillo() {
 
                 <nav className="user-nav">
                     <div className="user-nav__icon-box">
-                        <img src="/trillo_img/SVG/bookmark.svg" alt="bookmark" className="user-nav__icon" />
+                        <svg className="user-nav__icon" >
+                            <use xlinkHref="/trillo_img/sprite.svg#icon-bookmark" />
+                        </svg>
                         <span className="user-nav__notification">7</span>
                     </div>
                     <div className="user-nav__icon-box">
-                        <img src="/trillo_img/SVG/chat.svg" alt="chat" className="user-nav__icon" />
+                        <svg className="user-nav__icon" >
+                            <use xlinkHref="/trillo_img/sprite.svg#icon-chat" />
+                        </svg>
                         <span className="user-nav__notification">13</span>
                     </div>
                     <div className="user-nav__user">
@@ -34,27 +38,35 @@ function Trillo() {
             <div className="content">
                 <nav className="sidebar">
                     <ul className="side-nav">
-                        <li className="side-nav__item">
+                        <li className="side-nav__item side-nav__item--active">
                             <a href="" className="side-nav__link">
-                                <img src="/trillo_img/SVG/home.svg" alt="home" className="side-nav__icon" />
+                                <svg className="side-nav__icon">
+                                    <use xlinkHref="/trillo_img/sprite.svg#icon-home" />
+                                </svg>
                                 <span>Hotel</span>
                             </a>
                         </li>
                         <li className="side-nav__item">
                             <a href="" className="side-nav__link">
-                                <img src="/trillo_img/SVG/aircraft-take-off.svg" alt="home" className="side-nav__icon" />
+                                <svg className="side-nav__icon">
+                                    <use xlinkHref="/trillo_img/sprite.svg#icon-aircraft-take-off" />
+                                </svg>
                                 <span>Flight</span>
                             </a>
                         </li>
                         <li className="side-nav__item">
                             <a href="" className="side-nav__link">
-                                <img src="/trillo_img/SVG/key.svg" alt="home" className="side-nav__icon" />
+                                <svg className="side-nav__icon">
+                                    <use xlinkHref="/trillo_img/sprite.svg#icon-key" />
+                                </svg>
                                 <span>Car rental</span>
                             </a>
                         </li>
                         <li className="side-nav__item">
                             <a href="" className="side-nav__link">
-                                <img src="/trillo_img/SVG/map.svg" alt="home" className="side-nav__icon" />
+                                <svg className="side-nav__icon">
+                                    <use xlinkHref="/trillo_img/sprite.svg#icon-map" />
+                                </svg>
                                 <span>Tours</span>
                             </a>
                         </li>
