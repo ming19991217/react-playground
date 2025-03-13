@@ -33,7 +33,36 @@ function Trillo() {
 
             <div className="content">
                 <nav className="sidebar">
-                    Navigation
+                    <ul className="side-nav">
+                        <li className="side-nav__item">
+                            <a href="" className="side-nav__link">
+                                <img src="/trillo_img/SVG/home.svg" alt="home" className="side-nav__icon" />
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li className="side-nav__item">
+                            <a href="" className="side-nav__link">
+                                <img src="/trillo_img/SVG/aircraft-take-off.svg" alt="home" className="side-nav__icon" />
+                                <span>Flight</span>
+                            </a>
+                        </li>
+                        <li className="side-nav__item">
+                            <a href="" className="side-nav__link">
+                                <img src="/trillo_img/SVG/key.svg" alt="home" className="side-nav__icon" />
+                                <span>Car rental</span>
+                            </a>
+                        </li>
+                        <li className="side-nav__item">
+                            <a href="" className="side-nav__link">
+                                <img src="/trillo_img/SVG/map.svg" alt="home" className="side-nav__icon" />
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div className="legal">
+                        &copy; 2021 by trillo. All rights reserved.
+                    </div>
                 </nav>
 
                 <main className="hotel-view">
