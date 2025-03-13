@@ -191,3 +191,34 @@
     text-align: center;
     padding: 2.5rem;
 }
+
+
+.gallery {
+    display: flex;
+
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+
+
+    &__stars {
+        margin-right: auto;
+    }
+
+    &__icon-star {
+        height: 1.5rem;
+        width: 1.5rem;
+        fill: var(--color-primary);
+        margin-right: .5rem;
+    }
+
+
+
+}
